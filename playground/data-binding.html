@@ -21,8 +21,9 @@
         <div v-show="loading">
             Loading...
         </div>
-
-    </div>
+        <input type="text" v-model="message">
+        <p>{{message}}</p>
+    </div> 
     <script>
         new Vue({
             el: '#app',
@@ -30,7 +31,8 @@
                 num: 10,
                 uuid:'abc1234',
                 name: 'text-blue',
-                loading: true
+                loading: true,
+                message: ''
             },
             computed: {
                 doubleNum: function () {
