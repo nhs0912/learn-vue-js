@@ -3,8 +3,8 @@
 </template>
 
 <script>
-export default {
-//javaScript --인스턴스 옵션
+  export default {
+      //javaScript --인스턴스 옵션
 
 }
 </script>
